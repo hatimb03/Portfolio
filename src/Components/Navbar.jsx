@@ -31,6 +31,7 @@ const Navbar = () => {
           </li>
           <li className='hover:text-[#10ecc7] cursor-pointer'>Projects</li>
           <li className='hover:text-[#10ecc7] cursor-pointer'>Contact</li>
+          <li className='hover:text-[#10ecc7] cursor-pointer'>Resume</li>
         </ul>
 
         {/* Desktop Menu */}
@@ -43,6 +44,9 @@ const Navbar = () => {
           </li>
           <li className='hover:text-[#10ecc7] cursor-pointer tracking-tighter'>
             Contact
+          </li>
+          <li className='hover:text-[#10ecc7] cursor-pointer tracking-tighter'>
+            Resume
           </li>
         </ul>
 

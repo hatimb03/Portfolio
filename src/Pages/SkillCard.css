@@ -1,0 +1,10 @@
+.skill-card {
+  opacity: 0; /* Start invisible */
+  transform: translateY(20px); /* Start slightly below */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition effects */
+}
+
+.skill-card.visible {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move to original position */
+}

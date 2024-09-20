@@ -4,7 +4,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className='flex flex-col-reverse sm:flex-row text-white pt-20 sm:pt-24 pb-20 sm:pb-28 justify-around items-start sm:items-center border-b border-dashed'>
-      <div className='left flex flex-col sm:gap-12 gap-6 pt-24 sm:pt-0  pl-10'>
+      <div className='left flex flex-col sm:gap-12 gap-6 pt-24 sm:pt-0  '>
         <h2 className='sm:text-7xl text-4xl  font-semibold tracking-wider'>
           I am Hatim
         </h2>
@@ -15,7 +15,7 @@ const Home = () => {
           <span className='block'></span>Your vision, beautifully crafted!
         </div>
 
-        <div className='socials flex gap-6'>
+        <div className='socials flex gap-6 items-center'>
           <a href='https://github.com/hatimb03' target='_blank'>
             <FiGithub className='text-2xl hover:text-blue-500' />
           </a>
@@ -27,6 +27,11 @@ const Home = () => {
           </a>
           <a href='mailto:hatim.ba53@gmail.com'>
             <FiMail className='text-2xl hover:text-blue-500' target='_blank' />
+          </a>
+          <a href=''>
+            <div className=' bg-zinc-500 opacity-80 hover:opacity-100  px-6 py-2 rounded-xl font-semibold'>
+              <p>Resume</p>
+            </div>
           </a>
         </div>
       </div>
