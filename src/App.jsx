@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import "./App.css";
 import Home from "./Pages/Home";
 import Skills from "./Pages/Skills";
+import Projects from "./Pages/Projects";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Home />
       <Skills />
+      <Projects />
     </div>
   );
 };

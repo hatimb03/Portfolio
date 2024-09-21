@@ -1,3 +1,5 @@
+import { SiExpress } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 import {
   FaJs,
   FaReact,
@@ -8,7 +10,7 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiPostman, SiJetbrains } from "react-icons/si";
+import { SiTailwindcss, SiPostman, SiIntellijidea } from "react-icons/si";
 
 const skills = [
   {
@@ -28,7 +30,7 @@ const skills = [
   },
   {
     name: "Express.js",
-    logo: <FaNodeJs />,
+    logo: <SiExpress />,
     logoColor: "#8CC84B",
   },
   {
@@ -47,6 +49,11 @@ const skills = [
     logoColor: "#7952B3",
   },
   {
+    name: "VS Code",
+    logo: <VscVscode />,
+    logoColor: "#007ACC",
+  },
+  {
     name: "Java",
     logo: <FaJava />,
     logoColor: "#007396",
@@ -58,8 +65,9 @@ const skills = [
   },
   {
     name: "IntelliJ IDEA",
-    logo: <SiJetbrains />,
+    logo: <SiIntellijidea />,
     logoColor: "#000000",
+    logoBgColor: "#FFFFFF",
   },
   {
     name: "Git",
@@ -69,7 +77,8 @@ const skills = [
   {
     name: "GitHub",
     logo: <FaGithub />,
-    logoColor: "#181717",
+    logoBgColor: "#181717",
+    logoColor: "#FFFFFF",
   },
 ];
 

@@ -1,10 +1,21 @@
-.skill-card {
-  opacity: 0; /* Start invisible */
-  transform: translateY(20px); /* Start slightly below */
-  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition effects */
+.borderShadow {
+  outline: rgba(255, 255, 255, 0.226) solid 0.05px;
 }
 
-.skill-card.visible {
-  opacity: 1; /* Fully visible */
-  transform: translateY(0); /* Move to original position */
+.borderShadow:hover {
+  outline: rgb(114, 114, 206) solid 0.05px;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5); /* Scrollbar color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); /* Track color */
 }
