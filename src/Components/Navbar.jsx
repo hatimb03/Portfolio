@@ -8,7 +8,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className='text-white flex justify-between items-center pt-8 pb-4 border-b border-white tracking-tighter'>
+    <nav className='text-white flex justify-between items-center pt-8 pb-4  px-2 tracking-tighter'>
       <div className='logo text-5xl font-extrabold'>
         {/* <img src='/logo.png' alt='HB' className='h-10 w-14 sm:h-12 sm:w-20' /> */}
         HB
@@ -26,27 +26,23 @@ const Navbar = () => {
               className='text-xl cursor-pointer'
             />
           </div>
-          <li className='hover:text-[#10ecc7] cursor-pointer tracking-wider'>
+          <li className='hover:text-[#7272ce] cursor-pointer tracking-wider'>
             Skills
           </li>
-          <li className='hover:text-[#10ecc7] cursor-pointer'>Projects</li>
-          <li className='hover:text-[#10ecc7] cursor-pointer'>Contact</li>
-          <li className='hover:text-[#10ecc7] cursor-pointer'>Resume</li>
+          <li className='hover:text-[#7272ce] cursor-pointer'>Projects</li>
+          <li className='hover:text-[#7272ce] cursor-pointer'>Contact</li>
         </ul>
 
         {/* Desktop Menu */}
         <ul className='hidden sm:flex sm:flex-row items-center gap-12 text-lg'>
-          <li className='hover:text-[#10ecc7] cursor-pointer tracking-wider'>
+          <li className='hover:text-[#7272ce] cursor-pointer tracking-wider'>
             Skills
           </li>
-          <li className='hover:text-[#10ecc7] cursor-pointer tracking-tighter'>
+          <li className='hover:text-[#7272ce] cursor-pointer tracking-tighter'>
             Projects
           </li>
-          <li className='hover:text-[#10ecc7] cursor-pointer tracking-tighter'>
+          <li className='hover:text-[#7272ce] cursor-pointer tracking-tighter'>
             Contact
-          </li>
-          <li className='hover:text-[#10ecc7] cursor-pointer tracking-tighter'>
-            Resume
           </li>
         </ul>
 

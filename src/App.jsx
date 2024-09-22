@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Skills from "./Pages/Skills";
 import Projects from "./Pages/Projects";
+import Collab from "./Pages/Collab";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Home />
       <Skills />
       <Projects />
+      <Collab />
     </div>
   );
 };
