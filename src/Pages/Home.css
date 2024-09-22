@@ -6,7 +6,7 @@
 .role {
   opacity: 0;
   animation: fadeIn 2s forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 @keyframes colorChange {

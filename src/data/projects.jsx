@@ -21,7 +21,7 @@ const projects = [
     description:
       "An interactive mapping tool that helps farmers explore critical factors affecting their crops. Utilizing NASA data, it empowers farmers to make informed decisions for better yields.",
     link: "",
-    image: "https://picsum.photos/200",
+    image: "./underConstruction.webp",
     githubRepo: "",
   },
 ];

@@ -2,10 +2,10 @@ const Collab = () => {
   return (
     <>
       <div className=' pt-20 text-white sm:pl-8 pb-20 border-b border-dashed flex flex-col items-center justify-center gap-10'>
-        <h2 className='text-2xl font-semibold mb-6 '>
+        <h2 className='text-3xl font-semibold mb-6 '>
           Interested in collaborating with me?
         </h2>
-        <p className='sm:mx-20'>
+        <p className='sm:mx-32'>
           I&#39;m always excited to connect with fellow creators, developers,
           and problem-solvers. Whether it&#39;s crafting sleek user experiences,
           tackling real-world problems with code, or bringing fresh ideas to

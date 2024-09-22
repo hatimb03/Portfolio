@@ -3,7 +3,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className='flex flex-col-reverse sm:flex-row text-white pt-20 sm:pt-24 pb-20 sm:pb-28 justify-around items-start sm:items-center border-b border-dashed'>
+    <div className='flex flex-col-reverse sm:flex-row   text-white pt-20 sm:pt-24 pb-20 sm:pb-28 justify-around items-start border-b border-dashed sm:items-center  '>
       <div className='left flex flex-col sm:gap-12 gap-6 pt-24 sm:pt-0 '>
         <h2 className='sm:text-7xl text-4xl  font-semibold tracking-wider'>
           I am Hatim

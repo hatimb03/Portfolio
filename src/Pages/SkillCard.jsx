@@ -7,7 +7,7 @@ import "./SkillCard.css";
 
 const SkillCard = () => {
   return (
-    <div className='flex gap-3 flex-wrap mt-10 max-h-80 overflow-auto p-1'>
+    <div className='flex gap-3 flex-wrap mt-10 max-h-80 overflow-auto p-1 bg-zinc-800'>
       {skills.map((skill, index) => {
         return (
           <div
