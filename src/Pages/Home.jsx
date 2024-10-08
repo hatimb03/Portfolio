@@ -8,10 +8,10 @@ const Home = () => {
         <h2 className='sm:text-7xl text-4xl  font-semibold tracking-wider'>
           I am Hatim
         </h2>
-        <h5 className='sm:text-5xl text-3xl text-blue-500 font-bold relative title'>
+        <h5 className='lg:text-5xl text-3xl text-blue-500 font-bold relative title'>
           Web Developer
         </h5>
-        <div className='sm:text-2xl text-xl tracking-wider font-medium relative role'>
+        <div className='lg:text-2xl text-xl tracking-wider font-medium relative role'>
           <span className='block'></span>Your vision, beautifully crafted!
         </div>
 
@@ -30,16 +30,24 @@ const Home = () => {
           </a>
           <a href=''>
             <div className=' px-8 py-2  outline-none outline-[#7272ce] rounded-full hover:bg-[#7272ce] text-[#7272ce] hover:text-white'>
-              <p>Resume</p>
+              <p>
+                {" "}
+                <a
+                  href='https://drive.google.com/file/d/1VtJOq_QhfRNSAAREqPKPc7csxy3udNcN/view?usp=sharing'
+                  target='_blank'
+                >
+                  Resume
+                </a>
+              </p>
             </div>
           </a>
         </div>
       </div>
-      <div className='right grid sm:block place-items-center w-full sm:w-auto'>
+      <div className='right grid sm:block place-items-center w-full sm:w-auto rounded-full'>
         <img
-          src='./profile.avif'
+          src='./profile.png'
           alt=''
-          className='w-56 h-56 object-cover rounded-lg text-center'
+          className='w-56 h-56 lg:w-72 lg:h-72 object-cover rounded-full text-center '
         />
       </div>
     </div>

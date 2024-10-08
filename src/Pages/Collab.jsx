@@ -5,7 +5,7 @@ const Collab = () => {
         <h2 className='text-3xl font-semibold mb-6 '>
           Interested in collaborating with me?
         </h2>
-        <p className='sm:mx-32'>
+        <p className='lg:mx-32'>
           I&#39;m always excited to connect with fellow creators, developers,
           and problem-solvers. Whether it&#39;s crafting sleek user experiences,
           tackling real-world problems with code, or bringing fresh ideas to

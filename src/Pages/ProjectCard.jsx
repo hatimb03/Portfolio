@@ -7,7 +7,7 @@ const ProjectCard = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className='pt-10 flex justify-between gap-6 flex-wrap'>
+    <div className='pt-10 flex justify-center gap-6 flex-wrap'>
       {projects.map((projectInfo, index) => {
         return (
           <div

@@ -11,7 +11,7 @@ const projects = [
     name: "Notes-App",
     description:
       "An intuitive note-taking app that lets you quickly capture, pin, update, and delete notes.",
-    link: "",
+    link: "https://github.com/hatimb03/Notes-App",
     image: "./notes.png",
     githubRepo: "https://github.com/hatimb03/Notes-App",
   },
