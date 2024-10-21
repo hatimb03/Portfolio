@@ -41,7 +41,7 @@ const ProjectCard = () => {
                         Visit
                       </button>
                     </a>
-                    <a href={projectInfo.githubRepo}>
+                    <a href={projectInfo.githubRepo} target='_blank'>
                       <button className='mt-2  text-white font-bold p-2 rounded-full border border-white hover:bg-white hover:text-black '>
                         <FaGithub />
                       </button>
